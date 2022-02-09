@@ -13,7 +13,7 @@ class Methods extends Settings {
     super(accessKey, options);
   }
 
-  async getLocation(options: MethodOptions) {
+  async getLocation(options?: MethodOptions) {
     try {
       return await apiClient.get(`${super.getDefaultApiUrl()}${createUrlParams(options)}`);
     } catch (error) {
@@ -22,11 +22,13 @@ class Methods extends Settings {
   }
 }
 
-function createUrlParams(options: MethodOptions): string {
+function createUrlParams(options?: MethodOptions): string {
   let url = '';
 
-  for (const param of Object.keys(options)) {
-    url += `&${param as keyof MethodOptions}=${options[param as keyof MethodOptions]}`;
+  if (typeof options === 'object') {
+    for (const param of Object.keys(options)) {
+      url += `&${param as keyof MethodOptions}=${options[param as keyof MethodOptions]}`;
+    }
   }
   return url;
 }
