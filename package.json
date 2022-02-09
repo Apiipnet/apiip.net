@@ -1,6 +1,6 @@
 {
   "name": "apiip.net",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This package allows you to get all information about IP address.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
