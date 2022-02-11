@@ -2,11 +2,11 @@
 
 Find geolocation data from IP addresses (e.g. city, country, lat/long) using the apiip.net API.
 
-Apiip.net provides 1,000 free requests per month. For higher plans, check out the [website](https://apiip.net)
+Apiip.net provides 100 free requests per month. For higher plans, check out the [website](https://apiip.net)
 
 ## Installation
 
-You need to get your API key from here: https://apiip.net/get-started and you'll get 1000 free requests/month
+You need to get your API key from here: https://apiip.net/get-started and you'll get 100 free requests/month
 
 Install the package with:
 
