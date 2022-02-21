@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/Apiipnet/apiip.net/issues"
   },
-  "homepage": "https://github.com/Apiipnet/apiip.net#readme",
+  "homepage": "https://apiip.net/",
   "files": [
     "lib/**/*"
   ],
