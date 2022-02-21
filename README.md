@@ -1,9 +1,9 @@
 # IP to Location (Node.js and browser)
 
 <p>
-<img alt="apiip.net website status" src="https://img.shields.io/website?down_color=red&down_message=offline&label=apiip.net%20website&up_color=success&up_message=online&url=https%3A%2F%2Fapiip.net%2F">
-<img alt="Uptime Robot status" src="https://img.shields.io/uptimerobot/status/m789879229-16fa66289487470e7544d58a?label=API%20status">
-<a target="_blank" href="https://status.apiip.net/"><img alt="Uptime Robot ratio (30 days)" src="https://img.shields.io/uptimerobot/ratio/m789879229-16fa66289487470e7544d58a?label=API%20uptime%20%2830%20days%29"></a>
+<a href="https://apiip.net"><img alt="apiip.net website status" src="https://img.shields.io/website?down_color=red&down_message=offline&label=apiip.net%20website&up_color=success&up_message=online&url=https%3A%2F%2Fapiip.net%2F"> </a>
+<a href="https://status.apiip.net/"><img alt="Uptime Robot status" src="https://img.shields.io/uptimerobot/status/m789879229-16fa66289487470e7544d58a?label=API%20status"></a>
+<a href="https://status.apiip.net/"><img alt="Uptime Robot ratio (30 days)" src="https://img.shields.io/uptimerobot/ratio/m789879229-16fa66289487470e7544d58a?label=API%20uptime%20%2830%20days%29"></a>
 <img alt="Snyk Vulnerabilities for npm package" src="https://img.shields.io/snyk/vulnerabilities/npm/apiip.net">
 <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/Apiipnet/apiip.net">
 <img alt="npm downloads" src="https://img.shields.io/npm/dw/apiip.net?label=npm%20downloads">
