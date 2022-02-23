@@ -17,7 +17,7 @@ class Methods extends Settings {
     try {
       return await apiClient.get(`${super.getDefaultApiUrl()}${createUrlParams(options)}`);
     } catch (error) {
-      return error;
+      return Promise.reject(error);
     }
   }
 }
