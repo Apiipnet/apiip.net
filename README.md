@@ -126,7 +126,10 @@ apiip
     "code": "USD",
     "name": "US Dollar",
     "symbol": "$",
-    "number": "840"
+    "number": "840",
+    "rates": {
+      "EURUSD": 1.11
+    }
   },
   "timeZone": {
     "id": "America/New_York",
