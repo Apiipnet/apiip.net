@@ -24,7 +24,6 @@ class Methods extends Settings {
 
 function createUrlParams(options?: MethodOptions): string {
   let url = '';
-
   if (typeof options === 'object') {
     for (const param of Object.keys(options)) {
       url += `&${param as keyof MethodOptions}=${options[param as keyof MethodOptions]}`;
