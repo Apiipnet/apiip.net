@@ -15,11 +15,11 @@
 </p>
 Find geolocation data from IP addresses (e.g. city, country, lat/long) using the apiip.net API.
 
-Apiip.net provides 100 free requests per month. For higher plans, check out the [website](https://apiip.net)
+Apiip.net provides 5.000 free requests per month. For higher plans, check out the [website](https://apiip.net)
 
 ## Installation
 
-You need to get your API key from here: https://apiip.net/get-started and you'll get 100 free requests/month
+You need to get your API key from here: https://apiip.net/get-started and you'll get 5.000 free requests/month
 
 Install the package with:
 
@@ -115,6 +115,13 @@ apiip
   "countryFlagEmoj": "🇺🇸",
   "countryFlagEmojUnicode": "U+1F1FA U+1F1F8",
   "isEu": false,
+  "borders": [
+    "CAN",
+    "MEX"
+  ],
+  "topLevelDomains": [
+    ".us"
+  ],
   "languages": {
     "en": {
       "code": "en",
@@ -137,6 +144,20 @@ apiip
     "code": "EDT",
     "timeZoneName": "EDT",
     "utcOffset": -14400
+  },
+   "userAgent": {
+    "isMobile": false,
+    "isiPod": false,
+    "isTablet": false,
+    "isDesktop": true,
+    "isSmartTV": false,
+    "isRaspberry": false,
+    "isBot": false,
+    "browser": "Chrome",
+    "browserVersion": "100.0.4896.127",
+    "operatingSystem": "Windows 10.0",
+    "platform": "Microsoft Windows",
+    "source": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
   },
   "connection": {
     "asn": 12271,
