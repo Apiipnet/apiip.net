@@ -106,6 +106,9 @@ apiip
   "countryCode": "US",
   "countryName": "United States",
   "countryNameNative": "United States",
+  "regionCode":"NY"
+  "regionName":"New York"
+  "cityGeoNameId":5128581,
   "city": "New York",
   "postalCode": "10001",
   "latitude": 40.8271,
@@ -135,7 +138,7 @@ apiip
     "symbol": "$",
     "number": "840",
     "rates": {
-      "EURUSD": 1.11
+      "EURUSD": 0.99518
     }
   },
   "timeZone": {
