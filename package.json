@@ -49,6 +49,12 @@
     "geolocate",
     "geolocation",
     "iplocation",
-    "ip2location"
+    "ip2location",
+    "ip proxy check",
+    "vpn ip checker",
+    "ip vpn detection",
+    "ip proxy detection",
+    "ip2proxy",
+    "ip to proxy"
   ]
 }
