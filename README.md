@@ -167,9 +167,13 @@ apiip
     "isp": "Charter Communications Inc"
   },
   "security": {
-    "isPublicProxy": false,
-    "isResidentialProxy": false,
+    "isProxy": false,
+    "isBogon": false,
     "isTorExitNode": false,
+    "isCloud": false,
+    "isHosting": false,
+    "isSpamhaus": false,
+    "suggestion": "allow",
     "network": "67.250.176.0/20"
   }
 }
