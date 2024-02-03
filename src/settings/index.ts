@@ -11,7 +11,7 @@ class Settings {
     this.baseUrl = this.getBaseUrl(options?.ssl);
     Settings.prototype.getDefaultApiUrl = this.getDefaultApiUrl.bind(this);
   }
-  private getBaseUrl(ssl: boolean = false): string {
+  private getBaseUrl(ssl: boolean = true): string {
     return ssl ? this.BASE_URL_SSL : this.BASE_URL;
   }
   protected getDefaultApiUrl() {

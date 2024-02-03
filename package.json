@@ -1,7 +1,7 @@
 {
   "name": "apiip.net",
   "version": "1.2.5",
-  "description": "This package allows you to get all information about IP address.",
+  "description": "This package allows you to get geolocation data about IP address.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "dependencies": {
@@ -55,6 +55,8 @@
     "ip vpn detection",
     "ip proxy detection",
     "ip2proxy",
-    "ip to proxy"
+    "ip to proxy",
+    "ip geolocation api",
+    "ip lookup api"
   ]
 }

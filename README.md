@@ -15,11 +15,11 @@
 </p>
 Find geolocation data from IP addresses (e.g. city, country, lat/long) using the apiip.net API.
 
-Apiip.net provides 5.000 free requests per month. For higher plans, check out the [website](https://apiip.net)
+apiip.net provides 1.000 free requests per month. For higher plans, check out the [website](https://apiip.net)
 
 ## Installation
 
-You need to get your API key from here: https://apiip.net/get-started and you'll get 5.000 free requests/month
+You need to get your API key from here: https://apiip.net/get-started and you'll get 1.000 free requests/month
 
 Install the package with:
 
@@ -55,19 +55,19 @@ const apiip = Apiip('YOUR_API_KEY');
 
 ## HTTPS Encryption
 
-By default, the SSL/TLS is turned off, if you want to enable it just pass the options parameter
+By default, the SSL/TLS is turned on, if you want to disabled it just pass the options parameter
 
 #### Example
 
 ```javascript
-const apiip = require('apiip.net')('YOUR_API_KEY', { ssl: true });
+const apiip = require('apiip.net')('YOUR_API_KEY', { ssl: false });
 ```
 
 Or using ES6 module import
 
 ```javascript
 import Apiip from 'apiip.net';
-const apiip = Apiip('YOUR_API_KEY', { ssl: true });
+const apiip = Apiip('YOUR_API_KEY', { ssl: false });
 ```
 
 ## Configuration
@@ -75,7 +75,7 @@ const apiip = Apiip('YOUR_API_KEY', { ssl: true });
 Call getLocation method with config object
 
 ```javascript
-const apiip = require('apiip.net')('YOUR_API_KEY', { ssl: true });
+const apiip = require('apiip.net')('YOUR_API_KEY');
 
 apiip
   .getLocation({
